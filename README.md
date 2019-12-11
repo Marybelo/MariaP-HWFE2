@@ -1,4 +1,4 @@
-# MariaPahko Home work Front-end Developer 2 
+# Maria Panko Home work Front-end Developer  
 ## My first code &amp; working with Git
 in Class03 create 2 website.
 
