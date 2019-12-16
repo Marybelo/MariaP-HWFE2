@@ -6,7 +6,7 @@
 
 После отправки любой формы пользователь попадает на страницу ленты.-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -16,19 +16,37 @@
 </head>
 <header>
     <h1>Instagram</h1>
-    <a href=""><img src="https://gif.cmtt.space/3/club/1c/6a/1d/572a87875004d8.jpg" alt="photo logo" width="200"
-            height="alt"></a>
+    <a href=""><img src="https://gif.cmtt.space/3/club/1c/6a/1d/572a87875004d8.jpg" alt="photo logo" width="200"></a>
 </header>
 <section>
-    <form action="/echo" method="POST">
+    <form action="feed.html" method="POST">
         <input type="email" name="email" placeholder="Your email"> <br> <br>
         <input type="password" name="password" placeholder="Your password">
     </form>
- 
 
-    <form action="/echo" method="POST">
-    
-    
+    <br><br>
+    <form action="feed.html" method="POST">
+        <p>
+            <label> имя на сервисе:<input type="text" name="name"></label>
+        </p>
+        <p>
+            <label> email:<input type="text"  name="email"></label>
+        </p>
+        <p>
+            <label> пароль:<input type="password" name="password"></label>
+        </p>
+        <p>
+            <label> подтверждение пароля:<input type="password" name="password"></label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="confirm">
+                Cогласен с порядком обработки персональных данных
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+        </p>
     </form>
 </section>
 
