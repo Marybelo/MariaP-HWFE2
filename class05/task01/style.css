@@ -1,0 +1,41 @@
+body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 50%;
+  }
+.conteiner{
+padding-top: 20mm;
+padding-right: 20mm;
+padding-left: 48mm;
+padding-bottom: 40mm;
+}
+.univers {
+       font-weight: bold;
+    text-align: center;
+}
+
+.referat {
+    margin-top: 85mm;
+    text-align: center;
+}
+
+.one {
+    font-weight: bold;
+}
+
+.signature {
+    margin-top: 43mm;
+    margin-left: 60mm;
+}
+.minsk{
+    margin-top: 50mm;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+}
