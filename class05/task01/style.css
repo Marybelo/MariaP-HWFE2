@@ -7,15 +7,17 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     line-height: 50%;
-  }
-.conteiner{
-padding-top: 20mm;
-padding-right: 20mm;
-padding-left: 48mm;
-padding-bottom: 40mm;
 }
+
+.conteiner {
+    padding-top: 20mm;
+    padding-right: 20mm;
+    padding-left: 48mm;
+    padding-bottom: 40mm;
+}
+
 .univers {
-       font-weight: bold;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -32,10 +34,12 @@ padding-bottom: 40mm;
     margin-top: 43mm;
     margin-left: 60mm;
 }
-.minsk{
+
+.minsk {
     margin-top: 50mm;
     text-align: center;
 }
-span{
+
+span {
     text-decoration: underline;
 }
