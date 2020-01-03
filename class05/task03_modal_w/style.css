@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-decoration-color: grey;
+    margin: 0;
+    padding: 0;
+
+}
+
+.bgc_gray {
+
+    position: absolute;
+    display: block;
+    background-color: rgb(120, 120, 120);
+    width: 400px;
+}
+
+.bgc_white {
+
+    position: relative;
+    margin: 10px;
+    width: auto;
+
+
+    box-sizing: border-box;
+    background-color: #ffff;
+    border-radius: 5%;
+}
+
+.boarder {
+    position: relative;
+    margin: 10px;
+    width: auto;
+}
+
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    opacity: .25;
+    text-decoration: none;
+}
+
+.close_buttom {
+    border: grey 1px solid;
+    float: right;
+    line-height: 1;
+    padding: 5px;
+}
