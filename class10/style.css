@@ -1,0 +1,63 @@
+li {
+    list-style: none;
+}
+
+ul>li {
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+li>ul {
+    position: absolute;
+    padding: 0;
+    display: none;
+}
+
+li:hover>ul {
+    position: absolute;
+    padding: 0;
+    display: block;
+    background: #ffff;
+}
+
+ul>li:hover {
+    background-color: rgba(255, 0, 221, 0.377);
+}
+
+.clear {
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.adress {
+    position: relative;
+    border-bottom: 1px solid;
+}
+
+.map {
+    display: none;
+    position: absolute;
+}
+
+.adress:hover .map {
+    display:block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+p:before {
+    display: inline;
+    content: '*';
+    color: #ea1653;
+}
