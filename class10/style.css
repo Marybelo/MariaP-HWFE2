@@ -18,7 +18,7 @@ li:hover>ul {
     position: absolute;
     padding: 0;
     display: block;
-    background: #ffff;
+    background: rgb(255, 255, 255);
 }
 
 ul>li:hover {
@@ -30,26 +30,48 @@ ul>li:hover {
     padding-bottom: 20px;
 }
 
-.adress {
+.hint {
     position: relative;
     border-bottom: 1px solid;
 }
 
-.map {
+.hint-map {
     display: none;
     position: absolute;
 }
 
-.adress:hover .map {
-    display:block;
-    
+.hint:hover .hint-map {
+    display: block;
+}
+
+.curier_addres {
+    visibility: hidden;
+}
+
+input[type=radio]:checked~span {
+    visibility: visible;
 }
 
 
 
 
-
-
+.dis {
+    position: relative;
+    display: inline-block;
+  }
+  .dis:after {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    top: 0px;
+    left: 0;
+  }
+  [type="checkbox"]:checked ~ .dis:after {
+    width: 0;
+  }
+  
 
 
 
