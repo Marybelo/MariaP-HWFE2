@@ -50,12 +50,12 @@
     <br> <br> <br> <br> <br> <br> <br>
     <div class="form">Форма отправки заказа</div>
     <form action="" method="post">
-        <p> Фамилия и имя <input type="text" name="name"></p>
-        <p> Номер телефона <input type="tel"> </p>
-        <p> E-mail <input type="email"> </p>
+        <p> Фамилия и имя <input type="text" name="name" required></p>
+        <p> Номер телефона <input type="tel" required> </p>
+        <p> E-mail <input type="email" required> </p>
         <p> Выберите способ доставки: <br>
             <label>
-                <input type="radio" name="base" value="base1" checked>
+                <input type="radio" name="base" value="base1" checked required>
 
                 Самовывоз со склада по адресу </label>
             <span class="hint">г.Минск Немига-5/603
@@ -67,7 +67,7 @@
             </span>
             <br>
             <label>
-                <input type="radio" name="base" value="base2"> Курьером по Минску <br>
+                <input type="radio" name="base" value="base2" > Курьером по Минску <br>
                 <span class="curier_addres">Адрес доставки <input type="text" name="address" autocomplete required>
                 </span>
             </label>
@@ -80,27 +80,38 @@
     </form>
 
     <form action="/" method="post">
-        <input type="checkbox"> Я прочитал и согласен с [условиями доставки](#)
+        <input type="checkbox" id="i_agree" required>
+        <label for="i_agree"> Я прочитал и согласен с [условиями доставки](#)</label>
         <div class="dis">
             <button>Подтвердить заказ</button>
         </div>
 
     </form>
-    <br><br><br>
+    <br><br>
 
-    <br> <br><br>
 
-    <hr>
     <p>Поля, обязательные для заполнения</p>
 
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="work-time"> Время работы 9-24</div>
+        </div>
+        <div class="footer">
+            <div class="shops">г.Минск, Немига 5</div>
+        </div>
+        <div class="footer">
+            <div class="tele">+37529666 555 555</div>
+        </div>
 
+        <div class="footer">
+            <div class="skype"> skype : +352158765452</div>
+        </div>
 
+<div class="clear"></div>
 
-
-
-
-
-
+        <div class="copy"> © 2020 Все права защищены. </div>
+    </footer>
 
 
 

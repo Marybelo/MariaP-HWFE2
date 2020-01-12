@@ -74,12 +74,22 @@ input[type=radio]:checked~span {
   
 
 
-
-
-
-
 p:before {
     display: inline;
     content: '*';
     color: #ea1653;
+}
+
+.footer {
+    min-height:50px;
+	width:230px;
+	margin: 10px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+.copy {
+    text-align: center;
 }
