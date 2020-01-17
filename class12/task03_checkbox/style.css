@@ -3,6 +3,34 @@
     margin: 0;
 }
 
-.checkbox_kustom {
+.checkbox {
+    display: block;
+    width: 100px;
+    height: 100px;
+    }
+
+input[type="checkbox"] {
+        display:none;
+
+
+.checkbox__img {
+    display: block;
+    width: 100px;
+    height: 100px;
     background: url("http://icons.iconarchive.com/icons/bokehlicia/captiva/256/checkbox-icon.png");
 }
+
+
+
+
+
+
+
+
+/*.checkbox__img {
+    background-image: url(http://icons.iconarchive.com/icons/bokehlicia/captiva/256/checkbox-icon.png);
+    position: absolute;
+
+}
+
+*/
