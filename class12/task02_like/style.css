@@ -1,0 +1,31 @@
+* {
+	margin: 10px;
+	padding: 10p;
+}
+
+
+.like {
+  display: block;
+}
+
+.like__link:link {
+    color: rgba(112, 112, 112, 0.952);
+    text-decoration: none;
+  }
+
+  .like__link:hover {
+    color: #0c22ecf3;
+  }
+
+  .like__link:visited {
+    color: #f80808f3;
+  }
+
+  .like__link::visited:hover > > .like__link__heart{
+    color: #f80808f3;
+    opacity: 0.3;
+  }
+ 
+
+
+

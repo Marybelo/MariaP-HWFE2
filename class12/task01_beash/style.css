@@ -1,0 +1,10 @@
+.beach {
+
+    height: 4000px;
+    width: 100%;
+    display: block;
+    background: url("images/sun.png") top left no-repeat,
+        url("images/sea.jpg") bottom repeat-x,
+        url("images/sky.jpg");
+    background-size: 35%, contain;
+}
