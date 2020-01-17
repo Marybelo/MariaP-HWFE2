@@ -1,4 +1,4 @@
-# Maria Panko.  Front-end Developer in Adukar BY (Minsk Belarus)  
+# Maria Panko.  Front-end Developer in Adukar BY (Minsk Belarus)  2019-2020
 ## My first code &amp; working with Git
 
 ### Homework 1: Введение в Web-разработку
@@ -25,9 +25,9 @@ Page4 https://github.com/Marybelo/MariaP-HWFE2/tree/master/class01/Task04
 Задание 1. Форма заказа в интернет-магазине https://github.com/Marybelo/MariaP-HWFE2/tree/master/class10    
 
 ### Homework 12: Задания по теме "CSS. Стилистическое оформление элементов"
-Задание 1. Пляж
-Задание 2. Лайк
-Задание 3. Чекбокс
+Задание 1. Пляж   
+Задание 2. Лайк   
+Задание 3. Чекбокс   
 Задание 4. Header магазина
 
 
