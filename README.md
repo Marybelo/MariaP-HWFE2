@@ -25,10 +25,10 @@ Page4 https://github.com/Marybelo/MariaP-HWFE2/tree/master/class01/Task04
 Задание 1. Форма заказа в интернет-магазине https://github.com/Marybelo/MariaP-HWFE2/tree/master/class10    
 
 ### Homework 12: Задания по теме "CSS. Стилистическое оформление элементов"
-Задание 1. Пляж   
-Задание 2. Лайк   
-Задание 3. Чекбокс   
-Задание 4. Header магазина
+Задание 1. Пляж https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task01_beash      
+Задание 2. Лайк https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task02_like  
+Задание 3. Чекбокс https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task03_checkbox     
+Задание 4. Header магазина 
 
 
 
