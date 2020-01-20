@@ -1,31 +1,36 @@
-* {
-	margin: 10px;
-	padding: 10p;
+body {
+    height: 200px;
+    width: 200px;
+
 }
 
-
-.like {
-  display: block;
+.like__checkbox {
+    display: none;
 }
 
-.like__link:link {
-    color: rgba(112, 112, 112, 0.952);
-    text-decoration: none;
-  }
+.like__checkbox__heart {
+    display: block;
+    height: 200px;
+    width: 200px;
+    background: url("https://clipartart.com/images/checkered-heart-clipart-6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 
-  .like__link:hover {
-    color: #0c22ecf3;
-  }
+}
 
-  .like__link:visited {
-    color: #f80808f3;
-  }
+.like__checkbox__heart:hover {
+    background: url(https://clipartart.com/images/anniversary-heart-clipart-6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
 
-  .like__link::visited:hover > > .like__link__heart{
-    color: #f80808f3;
+.like__checkbox:checked~span {
+    background: url(http://www.vhv.rs/file/max/22/223339_red-heart-png.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.like__checkbox:checked:hover~span {
     opacity: 0.3;
-  }
- 
-
-
-
+}
