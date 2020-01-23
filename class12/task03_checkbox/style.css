@@ -1,0 +1,19 @@
+
+.check__input {
+  display: none;
+}
+
+.checkbox__img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-image: url(images/uncheck.png);
+  
+}
+
+.check__input:checked ~ span {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-image: url(images/check.png);
+}
