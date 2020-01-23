@@ -28,7 +28,7 @@ Page4 https://github.com/Marybelo/MariaP-HWFE2/tree/master/class01/Task04
 Задание 1. Пляж https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task01_beash      
 Задание 2. Лайк https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task02_like  
 Задание 3. Чекбокс https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task03_checkbox     
-Задание 4. Header магазина 
+Задание 4. Header магазина   https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task04_header    
 
 
 
