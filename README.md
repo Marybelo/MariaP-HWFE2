@@ -30,8 +30,8 @@ Page4 https://github.com/Marybelo/MariaP-HWFE2/tree/master/class01/Task04
 Задание 3. Чекбокс https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task03_checkbox     
 Задание 4. Header магазина   https://github.com/Marybelo/MariaP-HWFE2/tree/master/class12/task04_header    
 
-
-
+### Homework-13:  Задания по теме "CSS. Flexbox"
+Задание 1. Header для лендинга курсов  Адукар  https://github.com/Marybelo/MariaP-HWFE2/tree/master/class13/task01_adukar    
 
 
 
