@@ -5,11 +5,18 @@ body {
     color: rgb(252, 252, 252);
 }
 
-header {
+.gradient_background {
     display: block;
     width: 100%;
     height: 790px;
-    background-image: url(bgi.jpg);
+    background: linear-gradient(rgba(43, 43, 42));
+}
+
+.header {
+    display: block;
+    width: 100%;
+    height: 790px;
+    background-image:  url(bgi.jpg);
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
@@ -40,16 +47,18 @@ a:hover {
 }
 
 .head__logo {
-    padding-left: 40px;
+    padding-left: 20px;
+    width: calc(100%/3);
 }
 
 .head__contacts {
     display: flex;
+    width: calc(100%/3);
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     /* position: relative; */
     /* text-align: center; */
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 .h1 {
@@ -75,7 +84,7 @@ a:hover {
 
 .section {
     display: flex;
- width: 300px;
+    width: 300px;
 
 }
 
@@ -86,7 +95,14 @@ a:hover {
 }
 
 button {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
     background-color: rgb(250, 99, 99);
     height: 50px;
     padding: 2px 20px;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+
 }
