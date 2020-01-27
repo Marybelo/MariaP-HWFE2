@@ -85,13 +85,13 @@ ul li {
 
 .section_wrap {
     display: flex;
-    align-items: center;
+    /* Почему не работает jcc? */
+    /* justify-content: center; */
+    
     width: 960px;
     margin: 0 auto;
     padding: 10px 15px;
     color: #285473;
-
-
 }
 
 .left_section {
@@ -101,12 +101,30 @@ ul li {
     text-align: left
 }
 
+.left_section  li, .right_section li {
+    padding: 5px;
+}
+
 .center_section {
     display: block;
     width: 550px;
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    margin: 8px;
+    padding: 5px;
 }
 
 .right_section {
     display: block;
     width: 230px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 5px;
+    text-align: left;
+}
+
+.right_section li>ul {
+    padding: 5px;
 }
