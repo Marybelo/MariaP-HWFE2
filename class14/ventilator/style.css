@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.vent {
+    margin: 0 auto;
+  }
+
+.vent:hover {
+    -webkit-transform: rotate (3turn) ;
+    transform: rotate(720deg);
+    transition: 0.3s;
+}
+
+.vent:hover::after {
+    -webkit-transform: rotate (-3turn) ;
+} 

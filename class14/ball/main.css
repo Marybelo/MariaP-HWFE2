@@ -16,6 +16,7 @@ body {
     display: block;
     width: 100px;
     height: 100px;
+    position: absolute;
     background-image: url(https://www.freeiconspng.com/download/26384);
     background-size: contain;
     background-repeat: no-repeat;
@@ -25,6 +26,9 @@ body {
 
 .checkbox_ball:checked ~ .ball {
     width: 90%;
+    
     transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    transform:  rotate(720deg);
     
 }
