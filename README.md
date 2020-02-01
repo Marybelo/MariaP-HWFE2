@@ -41,7 +41,7 @@ Page4 https://github.com/Marybelo/MariaP-HWFE2/tree/master/class01/Task04
 Задание 3. Спрайты    
 
 ### Homework-14: Задания по теме "Основы HTML" (теперь с SCSS)
-Задание 1. Сервис ремонта мобильных телефонов 
+Задание 1. Сервис ремонта мобильных телефонов https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/task01_mobile%20repair       
 Задание 2.  Магазин оргтехники
 
 ### Задания по теме "Основы CSS. Позиционирование"
