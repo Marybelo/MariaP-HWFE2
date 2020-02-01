@@ -36,13 +36,17 @@ Page4 https://github.com/Marybelo/MariaP-HWFE2/tree/master/class01/Task04
 Задание 2. Страница новостей в вконтакте  https://github.com/Marybelo/MariaP-HWFE2/tree/master/class13/task02_vk       
 
 ### Homework:  CSS. Анимации
-Задание 1. Прыгающий мяч   
-Задание 2. Вентилятор   
+Задание 1. Прыгающий мяч   https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/ball       
+Задание 2. Вентилятор   https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/ventilator   
 Задание 3. Спрайты    
 
 ### Homework-14: Задания по теме "Основы HTML" (теперь с SCSS)
 Задание 1. Сервис ремонта мобильных телефонов 
 Задание 2.  Магазин оргтехники
+
+### Задания по теме "Основы CSS. Позиционирование"
+Практика: Форма заказа в интернет-магазине с bootstrap
+
 
 
 
