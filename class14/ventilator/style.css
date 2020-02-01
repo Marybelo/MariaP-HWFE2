@@ -6,12 +6,9 @@
     margin: 0 auto;
   }
 
-.vent:hover {
-    -webkit-transform: rotate (3turn) ;
-    transform: rotate(720deg);
+.img:hover {
+    transform: rotate (360deg);
+    -webkit-transform: rotate(360deg);
     transition: 0.3s;
 }
 
-.vent:hover::after {
-    -webkit-transform: rotate (-3turn) ;
-} 
