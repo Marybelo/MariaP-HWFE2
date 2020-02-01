@@ -8,7 +8,10 @@
 
 .img:hover {
     transform: rotate (360deg);
-    -webkit-transform: rotate(360deg);
-    transition: 0.3s;
+    -webkit-transform: rotate(720deg);
+    transition: 3s;
 }
 
+img {
+    transition: 3s;
+}

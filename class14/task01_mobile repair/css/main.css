@@ -4,4 +4,13 @@
   border-bottom: 1px solid #aaa;
 }
 
+.servis {
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.servis__item {
+  color: forestgreen;
+}
+
 /*# sourceMappingURL=main.css.map */
