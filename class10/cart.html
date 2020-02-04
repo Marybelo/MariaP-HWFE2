@@ -54,20 +54,24 @@
         <p> Номер телефона <input type="tel" required> </p>
         <p> E-mail <input type="email" required> </p>
 
-        
+
         <p> Выберите способ доставки: <br>
             <label>
                 <input type="radio" name="base" value="base1" checked required>
-
                 Самовывоз со склада по адресу
             </label>
-            <span class="hint">г.Минск Немига-5/603
-                <span class="hint-map"> <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.600659985325!2d27.548962715859535!3d53.903301480099486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1578329175851!5m2!1sru!2sby"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
-                    </iframe>
-                </span>
-            </span>
+
+            
+            <input type="checkbox" name="map" id="map" class="checkbox_map">
+            <label for="map" class="label_map">
+                <span> г.Минск Немига-5/603</span>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.600659985325!2d27.548962715859535!3d53.903301480099486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1578329175851!5m2!1sru!2sby"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
+            </label>
+
+
             <br>
             <label>
                 <input type="radio" name="base" value="base2"> Курьером по Минску <br>

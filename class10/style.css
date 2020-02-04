@@ -30,17 +30,16 @@ ul>li:hover {
     padding-bottom: 20px;
 }
 
-.hint {
-    position: relative;
-    border-bottom: 1px solid;
-}
-
-.hint-map {
+/* При клике на адрес выскакивает карта */
+.map {
     display: none;
-    position: absolute;
 }
 
-.hint:hover .hint-map {
+.checkbox_map {
+    display: none;
+}
+
+.checkbox_map:checked ~ iframe {
     display: block;
 }
 
@@ -58,8 +57,9 @@ input[type=radio]:checked~span {
 .dis {
     position: relative;
     display: inline-block;
-  }
-  .dis:after {
+}
+
+.dis:after {
     position: absolute;
     content: '';
     width: 150px;
@@ -67,11 +67,12 @@ input[type=radio]:checked~span {
     background: rgba(255, 255, 255, 0.5);
     top: 0px;
     left: 0;
-  }
-  [type="checkbox"]:checked ~ .dis:after {
+}
+
+[type="checkbox"]:checked~.dis:after {
     width: 0;
-  }
-  
+}
+
 
 
 p:before {
@@ -81,11 +82,12 @@ p:before {
 }
 
 .footer {
-    min-height:50px;
-	width:230px;
-	margin: 10px;
+    min-height: 50px;
+    width: 230px;
+    margin: 10px;
     float: left;
 }
+
 .clear {
     clear: both;
 }
