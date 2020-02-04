@@ -3,32 +3,27 @@ body {
     margin: 0;
 }
 
-.checkbox_ball_wrap {
-    width: 100%;
-    height: 1000px;
-}
 
 .checkbox_ball {
     display: none;
 }
 
-.ball {
+
+.label_ball {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    background-image: url(https://www.freeiconspng.com/download/26384);
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition-property: width;
-    transition-duration: 3s; 
+    bottom: 0;
+    left: 0;
+    transition: 3s cubic-bezier(0.29, 0.66, 0.54, 0.82);
 }
 
-.checkbox_ball:checked ~ .ball {
-    width: 90%;
-    
-    transition-timing-function: ease-out;
-    -webkit-transition-timing-function: ease-out;
-    transform:  rotate(720deg);
-    
+.soccer-ball {
+    width: 60px;
+    height: 60px;
+}
+
+.checkbox_ball:checked~.label_ball {
+    transform: translateX(540px) rotate(720deg);
 }
