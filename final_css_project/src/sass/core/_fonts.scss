@@ -1,9 +1,7 @@
-// @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
-// $font-headers: "Open Sans", sans-serif;
-// $font-text: "Roboto", sans-serif;
-// $font-controls: "Arial", sans-serif;
 
-// * {
-//   font-family: $font-text;
-// }
+@font-face {
+    font-family: "WWFRegular";
+    src: url(/public/fonts/wwf-webfont-f452969e98fb1efa7dd39a896d140cf55c446264182df67ccc19a48d931974ca.ttf) format(truetype);
+    font-weight: normal;
+}

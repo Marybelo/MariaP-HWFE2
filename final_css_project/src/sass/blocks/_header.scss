@@ -1,45 +1,88 @@
+.header_wrapper {
+    display: block;
+    background: rgb(0, 0, 0);
+    // background:#000 url(/public/images/bg-header-pattern-2d1f5ee4abb035203b0bd1cb7326ea039863ae7c3190ee41e43f4d8d9fcbf953.png) 50% 0;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 20px 10px 12px 10px;
+}
+
 .header {
     display: block;
     position: relative;
     height: 40px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    padding: 20px 10px 12px 10px;
+    width: 1200px;
+    margin: 0 auto;
 }
+
 .header__container {
+    font-family: 'WWFRegular', sans-serif;
     line-height: 40px;
     margin: 0 auto;
     display: flex;
 
 }
+
 .header__logo {
     display: block;
-//     // background-image: url('/public/images/logo-c562409bb6158bf64e5f8b1be066dbd5983d75f5ce7c9935a5afffbcc03f8e5d.png');
+    //     // background-image: url('/public/images/logo-c562409bb6158bf64e5f8b1be066dbd5983d75f5ce7c9935a5afffbcc03f8e5d.png');
     height: 120px;
     width: 100px;
+    position: absolute;
     top: 0px;
     z-index: 3;
-    margin-left: 150px;
+    top: -20px;
+}
+
+.header .nav a {
+    display: block;
+    font-weight: bold;
 }
 
 .header__nav {
-    ul {
-        display: flex;
-        justify-content: center;
-        // margin-left: 70px;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 38px;
+    padding: 0 10px;
+    ;
+    margin-left: 350px;
 
-        li a {
-            text-transform: uppercase;
-            color: rgb(255, 253, 253);
-            display: block;
-            padding: 0px 10px;
-        }
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+    li>a:first-of-type {
+        text-transform: uppercase;
+        color: rgb(255, 253, 253);
+        display: block;
+        padding: 0px 10px;
     }
 }
 
+.header .nav>li>a {
+    text-transform: uppercase;
+}
+
 .header__right {
+    margin-left: auto;
+
     ul {
         display: flex;
         justify-content: end;
     }
 }
+
+// li a {
+//     text-transform: uppercase;
+//     display: block;
+//     }
+
+
+// Выпадающее About us
+// background: #222;
+// line-height: 1.5;
+// padding: 12px 0;
+// width: 184px;

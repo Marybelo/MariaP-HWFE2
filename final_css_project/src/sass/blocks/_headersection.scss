@@ -1,0 +1,39 @@
+.header_section {
+    position: relative;
+
+}
+
+.header_section_main {
+    background-image: url('https://c402277.ssl.cf1.rackcdn.com/photos/18666/images/hero_full/Medium_WW266533.jpg?1581536553');
+    background-size: cover;
+    height: 455px;
+    width: auto;
+}
+
+.attribution {
+    color: #fff;
+    font-size: 9px;
+    position: absolute;
+    right: 15px;
+    text-shadow: 0 1px 0 #000;
+    top: 11px;
+    z-index: 4;
+}
+
+.header_section_title {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0 120px;
+    bottom: 0;
+    z-index: 3;
+    padding: 30px 15px;
+
+    h2 {
+        text-transform: uppercase;
+        font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
+    }
+
+    h3 {
+        margin-bottom: 2px;
+    }
+}

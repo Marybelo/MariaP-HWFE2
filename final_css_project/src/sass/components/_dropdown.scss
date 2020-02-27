@@ -1,0 +1,35 @@
+.dropdown-control {
+    position: relative;
+    display: block;
+}
+
+ .dropdown-control a:hover .dropdown {
+    display: block;
+    color: rgb(0, 110, 165);
+    background: rgb(250, 248, 248);
+    text-decoration: none;
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: rgb(250, 248, 248);
+    width: 530px;
+    transition: opacity 0.25s ease-in-out;
+    font-size: 12px;
+    font: inherit;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    // top: -900%;
+}
+
+.primary {
+    width: 350px;
+}
+
+.secondary {
+    background: rgb(246, 245, 243);
+    border-left: 1px solid #f0eeeb;
+    padding: 11px 0 0 0;
+    width: 180px;
+}

@@ -10,37 +10,45 @@
 
 <body>
 
-    <header class="header">
-        <div class="header__container">
-            <div class="header__logo">
-                <img src="./images/logo-c562409bb6158bf64e5f8b1be066dbd5983d75f5ce7c9935a5afffbcc03f8e5d.png"
-                    width="100px" alt="WWF">
-            </div>
-            <!-- Центральное меню -->
-            <div class="header__nav">
-                <ul class="nav">
-                    <li class="dropdown-control"> <a href="#"> Our Work </a>
-                        <!-- <ul>
-                            <li>Climate</li>
-                            <li>Food</li>
-                            <li>Forest</li>
-                        </ul>
-                        <ul>
-                            <li>Fresh Water</li>
-                            <li>Oceans</li>
-                            <li>Wildlife</li>
-                        </ul>
-                        <a href="">View all conservation work</a>
-                        <ul>
-                            <li>Business</li>
-                            <li>Policy</li>
-                            <li>Partnerships</li>
-                            <li>Science</li>
-                        </ul> -->
-                    </li>
+    <header>
+        <div class="header_wrapper">
+            <div class="header">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <img src="./images/logo-c562409bb6158bf64e5f8b1be066dbd5983d75f5ce7c9935a5afffbcc03f8e5d.png"
+                            width="100px" alt="WWF">
+                    </div>
+                    <!-- Центральное меню -->
+                    <div class="header__nav">
+                        <ul class="nav">
+                            <li class="dropdown-control"> <a href="#"> Our Work </a>
+                                <div class="dropdown">
+                                    <div class="primary">
+                                        <ul>
+                                            <li>Climate</li>
+                                            <li>Food</li>
+                                            <li>Forest</li>
+                                        </ul>
+                                        <ul>
+                                            <li>Fresh Water</li>
+                                            <li>Oceans</li>
+                                            <li>Wildlife</li>
+                                        </ul>
+                                        <a href=""> View all conservation work</a>
+                                    </div>
+                                    <div class="secondary">
+                                        <ul>
+                                            <li>Business</li>
+                                            <li>Policy</li>
+                                            <li>Partnerships</li>
+                                            <li>Science</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
 
-                    <li class="dropdown-control"> <a href="#"> Species </a>
-                        <!-- <div class="dropdown">
+                            <li class="dropdown-control"> <a href="#"> Species </a>
+                                <div class="dropdown">
                             <div class="primary">
                                 <ul>
                                     <li>Giant Pandas</li>
@@ -57,17 +65,17 @@
                                 <a href="">View speciesh
                                 </a>
                             </div>
-                            <div class="secondary">
+                            
                                 <ul>
                                     <li>Animal Trivia Games</li>
                                     <li>Symbolically Adopt an Animal</li>
                                     <li>Endangered Species</li>
                                     <li>Teaching Resources</li>
                                 </ul>
-                            </div> -->
-                    </li>
-                    <li class="dropdown-control"> <a href="#"> Places </a>
-                        <!-- <div class="dropdown">
+                            </div>
+                            </li>
+                            <li class="dropdown-control"> <a href="#"> Places </a>
+                                <div class="dropdown">
                             <div class="primary">
                                 <ul>
                                     <li>Amazon</li>
@@ -89,16 +97,16 @@
                                     <li> Habitats</li>
                                     <li> Our Work Conserving Places</li>
                                 </ul>
-                            </div> -->
-                    </li>
-                </ul>
-            </div>
-           
-            <!-- Правое меню -->
-            <div class="header__right">
-                <ul class="right">
-                    <li class="dropdown-control"><a href="">About Us</a>
-                        <!-- <div class="dropdown">
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Правое меню -->
+                    <div class="header__right">
+                        <ul class="right">
+                            <li class="dropdown-control"><a href="">About Us</a>
+                                <!-- <div class="dropdown">
                             <ul>
                                 <li>History</li>
                                 <li>Leadership</li>
@@ -110,9 +118,9 @@
                                 <li>Contact</li>
                             </ul>
                         </div> -->
-                    </li>
-                    <li class="dropdown-control"><a href="">How to Help</a>
-                        <!-- <div class="dropdown">
+                            </li>
+                            <li class="dropdown-control"><a href="">How to Help</a>
+                                <!-- <div class="dropdown">
                             <ul>
                                 <li>Take Action</li>
                                 <li>Get Email</li>
@@ -123,12 +131,12 @@
                                 <li>See Other Ways to Support WWF</li>
                             </ul>
                         </div> -->
-                    </li>
-                    <li>
-                        <form action="" method="get" class="header-searchr-form"></form>
-                    </li>
-                    <li class="dropdown-control"><a href="">Donate</a>
-                        <!-- <div class="dropdown">
+                            </li>
+                            <li>
+                                <form action="" method="get" class="header-search-form"></form>
+                            </li>
+                            <li class="dropdown-control"><a class="action action-primary" href="">Donate</a>
+                                <!-- <div class="dropdown">
                             <ul>
                                 <li>Make a One-time Donation</li>
                                 <li>Make a Monthly Donation</li>
@@ -137,28 +145,38 @@
                                 <li>Join as a Partner in Conservation</li>
                             </ul>
                         </div> -->
-                    </li>
-                    <li class="dropdown-control"><a href="">Adopt</a>
-                        <!-- <div class="dropdown">
+                            </li>
+                            <li class="dropdown-control">
+                                <a class="action action-secondary" href="">Adopt</a>
+                                <div class="dropdown">
                             <ul>
                                 <li>Adoptions</li>
                                 <li>T-Shirts</li>
                                 <li>Socks</li>
                                 <li>More Gifts</li>
                             </ul>
-                        </div> -->
-                    </li>
-                </ul>
+                        </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
-
         </div>
-
-
-
-
-
-
     </header>
+
+    <section class="header_section">
+        <div class="header_section_main">
+            <span class="attribution">© Hkun Lat / WWF-US</span>
+            <div class="header_section_title_wrapper">
+                <div class="header_section_title">
+                    <h2>A new approach to infrastructure</h2>
+                    <h3>Changing how we build for people and nature in a rapidly warming world</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
