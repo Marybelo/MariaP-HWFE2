@@ -17,8 +17,7 @@
     background-image: url('https://c402277.ssl.cf1.rackcdn.com/photos/18701/images/hero_full/Medium_WW22786.jpg?1582815937');
     background-size: cover ;
     background-repeat: no-repeat;
-    
-     height: 400px;
+    height: 400px;
     width: auto;
     position: relative;
 }
@@ -44,7 +43,8 @@
 
     h2 {
         text-transform: uppercase;
-        font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
+        font: 52px/1.1 'WWFRegular', serif;
+        color: rgb(255, 0, 0);
         font-weight: bold;
     }
 

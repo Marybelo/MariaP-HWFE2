@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "WWFRegular";
+  src: url("../fonts/f1.ttf") format('truetype');
+  font-weight: normal;
+}
+
 .header_wrapper {
   display: block;
   background: black;
@@ -15,7 +21,8 @@
 }
 
 .header__container {
-  font-family: "WWFRegular", sans-serif;
+  font-family: "WWFRegular", serif;
+  color: #db4444;
   line-height: 40px;
   margin: 0 auto;
   display: flex;
@@ -107,7 +114,8 @@
 }
 .header_section_title_wrapper .header_section_title h2 {
   text-transform: uppercase;
-  font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
+  font: 52px/1.1 "WWFRegular", serif;
+  color: red;
   font-weight: bold;
 }
 .header_section_title_wrapper .header_section_title h3 {
@@ -153,11 +161,7 @@ footer {
   display: flex;
 }
 
-@font-face {
-  font-family: "WWFRegular";
-  src: url(/public/fonts/wwf-webfont-f452969e98fb1efa7dd39a896d140cf55c446264182df67ccc19a48d931974ca.ttf) format(truetype);
-  font-weight: normal;
-}
+
 body {
   margin: 0;
   padding: 0;
