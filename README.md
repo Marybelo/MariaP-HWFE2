@@ -38,7 +38,7 @@
 ### Homework:  CSS. Анимации
 Задание 1. [Прыгающий мяч](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/ball)       
 Задание 2. [Вентилятор](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/ventilator)   
-Задание 3. Спрайты    
+Задание 3. [Спрайт](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/sprite_ninja)    
 
 ### Задания по теме "Основы HTML" (теперь с SCSS)
 Задание 1. [Сервис ремонта мобильных телефонов](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class14/task01_mobile%20repair)     
