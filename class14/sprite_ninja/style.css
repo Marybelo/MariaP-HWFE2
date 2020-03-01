@@ -1,0 +1,19 @@
+.ninja{
+    height: 135px;
+      width: 66px;
+      background-image: url(https://github.com/AdukarIT/BurkovskayaAD/blob/master/zadanie7.3/sheet.jpg?raw=true);
+  
+  }
+  
+  .ninja:hover{
+      animation: ninja 0.3s steps(7)infinite;
+  }
+  
+  @keyframes ninja {
+    
+  0% { background-position: 0px 0; }
+  100% { background-position: -462px  0 ;}
+  }
+    
+  
+  

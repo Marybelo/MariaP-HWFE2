@@ -9,9 +9,9 @@
 .img:hover {
     transform: rotate (360deg);
     -webkit-transform: rotate(720deg);
-    transition: 3s;
+    transition: 5s;
 }
 
 img {
-    transition: 3s;
+    transition: 5s;
 }
