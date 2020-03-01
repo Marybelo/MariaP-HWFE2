@@ -15,9 +15,9 @@
 
 .header_section_main {
     background-image: url('https://c402277.ssl.cf1.rackcdn.com/photos/18701/images/hero_full/Medium_WW22786.jpg?1582815937');
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 450px;
     width: auto;
     position: relative;
 }
@@ -25,31 +25,27 @@
 
 
 .header_section_title_wrapper {
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    background: linear-gradient(transparent, rgba(0,0,0,0.75));
-    
-.header_section_title {
-    color: rgb(255, 255, 255);
     position: absolute;
-    margin: 0 120px;
     bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    background-repeat: repeat-x;
+    background-size: auto 100%;
     z-index: 3;
-    padding: 30px 15px;
-   
-   
-    
+
+    .header_section_title {
+        color: #fff;
+        position: relative;
+        max-width: 1160px;
+        margin: 0 auto;
+    }
+
 
     h2 {
         text-transform: uppercase;
-        font: 52px/1.1 'WWFRegular', serif;
-        color: rgb(255, 0, 0);
+        font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
         font-weight: bold;
+        line-height: 1;
     }
 
-    h3 {
-        margin-bottom: 2px;
-    }
-}
 }

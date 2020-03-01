@@ -1,9 +1,12 @@
 .header_wrapper {
     display: block;
-    background: rgb(0, 0, 0);
     font-size: 13px;
     line-height: 1.5;
     padding: 20px 10px 12px 10px;
+}
+
+.header_wrapper_black {
+    background: rgb(0, 0, 0);
 }
 
 .header {
@@ -16,7 +19,6 @@
 
 .header__container {
     font-family: 'WWFRegular', serif;
-    color:  rgb(219, 68, 68);
     line-height: 40px;
     margin: 0 auto;
     display: flex;
@@ -40,13 +42,13 @@
 }
 
 .header__nav {
+    margin-left: 308px;
     font-size: 24px;
     font-weight: normal;
     letter-spacing: 1px;
     line-height: 38px;
     padding: 0 10px;
-    ;
-    margin-left: 350px;
+    
 
 }
 
@@ -56,33 +58,57 @@
 
     li>a:first-of-type {
         text-transform: uppercase;
-        color: rgb(255, 253, 253);
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        letter-spacing: 1px;
+        font-weight: normal;
         display: block;
-        padding: 0px 10px;
+        // Изменить на 20пк после поиска
+        padding: 0 10px;
     }
 }
+
 
 .header .nav>li>a {
     text-transform: uppercase;
 }
 
 .header__right {
-    margin-left: auto;
+    margin-left: 11px;
+    font-size: 13px;
 
     ul {
         display: flex;
         justify-content: end;
+
     }
 }
 
-// li a {
-//     text-transform: uppercase;
-//     display: block;
-//     }
+.gray {
+    display: block;
+    font-family: "WWFopensansBold", serif;
+    font-size: 13px;
+    font-weight: lighter;
+    font-size: 100%;
+    color: #989b97;
+    padding: 0 15px;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+.action-primary {
+    margin: 0 10px;
+}
 
+.form-inline {
+    position: absolute;
+    width: 100px;
+}
 
-// Выпадающее About us
-// background: #222;
-// line-height: 1.5;
-// padding: 12px 0;
-// width: 184px;
+.form-inline input {
+    box-shadow: none;
+    border-color: #000;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 1;
+    width: 100%;
+}

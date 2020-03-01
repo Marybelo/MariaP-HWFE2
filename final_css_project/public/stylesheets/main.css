@@ -1,15 +1,57 @@
 @font-face {
   font-family: "WWFRegular";
-  src: url("../fonts/f1.ttf") format('truetype');
+  src: url("../fonts/f1.ttf") format("truetype");
   font-weight: normal;
+}
+@font-face {
+  font-family: "WWFopensansBold";
+  src: url("../fonts/opensansBold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "WWFlightWebfont";
+  src: url("../fonts/lightWebfont.ttf") format("truetype");
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+p,
+a,
+img,
+form,
+button {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+svg, img {
+  display: block;
 }
 
 .header_wrapper {
   display: block;
-  background: black;
   font-size: 13px;
   line-height: 1.5;
   padding: 20px 10px 12px 10px;
+}
+
+.header_wrapper_black {
+  background: black;
 }
 
 .header {
@@ -22,7 +64,6 @@
 
 .header__container {
   font-family: "WWFRegular", serif;
-  color: #db4444;
   line-height: 40px;
   margin: 0 auto;
   display: flex;
@@ -44,12 +85,12 @@
 }
 
 .header__nav {
+  margin-left: 308px;
   font-size: 24px;
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 38px;
   padding: 0 10px;
-  margin-left: 350px;
 }
 
 .nav {
@@ -58,9 +99,12 @@
 }
 .nav li > a:first-of-type {
   text-transform: uppercase;
-  color: #fffdfd;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: normal;
   display: block;
-  padding: 0px 10px;
+  padding: 0 10px;
 }
 
 .header .nav > li > a {
@@ -68,11 +112,42 @@
 }
 
 .header__right {
-  margin-left: auto;
+  margin-left: 11px;
+  font-size: 13px;
 }
 .header__right ul {
   display: flex;
   justify-content: end;
+}
+
+.gray {
+  display: block;
+  font-family: "WWFopensansBold", serif;
+  font-size: 13px;
+  font-weight: lighter;
+  font-size: 100%;
+  color: #989b97;
+  padding: 0 15px;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+
+.action-primary {
+  margin: 0 10px;
+}
+
+.form-inline {
+  position: absolute;
+  width: 100px;
+}
+
+.form-inline input {
+  box-shadow: none;
+  border-color: #000;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 1;
+  width: 100%;
 }
 
 .header_section {
@@ -93,33 +168,31 @@
   background-image: url("https://c402277.ssl.cf1.rackcdn.com/photos/18701/images/hero_full/Medium_WW22786.jpg?1582815937");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 450px;
   width: auto;
   position: relative;
 }
 
 .header_section_title_wrapper {
+  width: 100%;
   position: absolute;
   bottom: 0;
-  width: 100%;
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  z-index: 3;
 }
 .header_section_title_wrapper .header_section_title {
-  color: white;
-  position: absolute;
-  margin: 0 120px;
-  bottom: 0;
-  z-index: 3;
-  padding: 30px 15px;
+  color: #fff;
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
 }
-.header_section_title_wrapper .header_section_title h2 {
+.header_section_title_wrapper h2 {
   text-transform: uppercase;
-  font: 52px/1.1 "WWFRegular", serif;
-  color: red;
+  font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
   font-weight: bold;
-}
-.header_section_title_wrapper .header_section_title h3 {
-  margin-bottom: 2px;
+  line-height: 1;
 }
 
 footer {
@@ -161,53 +234,25 @@ footer {
   display: flex;
 }
 
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-div,
-p,
-a,
-img,
-form,
-button {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul,
-li {
-  display: block;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-svg, img {
-  display: block;
-}
-
 .action {
-  border-radius: 2px;
+  border-radius: 10px;
   color: #fff;
   font-size: 15px;
   text-align: center;
-  margin-left: 10px;
   padding: 0 15px;
+  font-family: "WWFopensansBold", serif;
+  text-transform: uppercase;
 }
 
 .action-primary {
   background: #d55c19;
+  border-radius: 2px;
   margin-left: 0;
 }
 
 .action-secondary {
   background: #e98300;
+  border-radius: 2px;
 }
 
 .dropdown-control {

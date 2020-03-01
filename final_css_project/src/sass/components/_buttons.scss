@@ -1,17 +1,21 @@
 .action {
-    border-radius: 2px;
+    border-radius: 10px;
     color: #fff;
     font-size: 15px;
     text-align: center;
-    margin-left: 10px;
     padding: 0 15px;
+    font-family: "WWFopensansBold", serif;
+    text-transform: uppercase;
 }
 
 .action-primary {
     background: rgb(213, 92, 25);
+    border-radius: 2px;
     margin-left: 0;
 }
 
 .action-secondary {
     background: rgb(233, 131, 0);
+    border-radius: 2px;
 }
+
