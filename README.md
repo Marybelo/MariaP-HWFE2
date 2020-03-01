@@ -46,9 +46,11 @@
 ### Задания по теме "Основы CSS. Позиционирование"
 Практика: [Форма заказа в интернет-магазине с bootstrap](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class15/task01_bootstrap)
 
-
 ### Итоговое задание по разделу CSS
 [Final Project](https://github.com/Marybelo/MariaP-HWFE2/tree/master/final_css_project)
+
+## JavaScript Логические операторы. Условные операторы. Циклы
+[Homework](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class16_js)   
 
 
 
