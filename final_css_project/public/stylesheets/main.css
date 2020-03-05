@@ -38,7 +38,7 @@ li {
   list-style: none;
 }
 
-svg, img {
+div, svg, img {
   display: block;
 }
 
@@ -106,6 +106,10 @@ svg, img {
   padding: 0 10px;
 }
 
+.nav_black li > a:first-of-type {
+  color: #000;
+}
+
 .header .nav > li > a {
   text-transform: uppercase;
 }
@@ -131,6 +135,10 @@ svg, img {
   transition: all 0.25s ease-in-out;
 }
 
+.speciec_black {
+  color: #000;
+}
+
 .action-primary {
   margin: 0 10px;
 }
@@ -143,7 +151,7 @@ svg, img {
 
 .form-inline_input {
   box-shadow: none;
-  border-color: #000;
+  border: 1px solid black;
   background: white url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iIzVGNjM2OCI+PHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg==) no-repeat right;
   border-radius: 3px;
   font-style: italic;
@@ -195,6 +203,40 @@ svg, img {
   font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 1;
+}
+
+.header_species_bg {
+  background-image: url("https://c402277.ssl.cf1.rackcdn.com/photos/2213/images/hero_full/Species-Index-Turtle.jpg?1345645331");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+  position: relative;
+}
+
+.wrapper_header_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: none;
+  z-index: 2;
+  color: #000;
+  text-align: center;
+  width: 100%;
+}
+
+.headline-hero-h1 {
+  text-transform: uppercase;
+  line-height: 1;
+  font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.headline-hero-h2 {
+  font: bold 20px/1 OpenSansRegular, Helvetica, Arial, sans-serif;
+  line-height: 24px;
 }
 
 footer {
@@ -257,16 +299,13 @@ footer {
   border-radius: 2px;
 }
 
-.dropdown-control {
+.dropdown-control li {
   position: relative;
   display: block;
 }
 
-.dropdown-control a:hover .dropdown {
+.dropdown-control li:hover .dropdown {
   display: block;
-  color: #006ea5;
-  background: #faf8f8;
-  text-decoration: none;
 }
 
 .dropdown {
@@ -279,16 +318,19 @@ footer {
   font: inherit;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
-
-.primary {
+.dropdown .primary {
   width: 350px;
 }
-
-.secondary {
+.dropdown .secondary {
   background: #f6f5f3;
   border-left: 1px solid #f0eeeb;
   padding: 11px 0 0 0;
   width: 180px;
+}
+
+.carusel {
+  padding: 50px 20%;
+  margin: 0 auto;
 }
 
 .homepagecard {
@@ -296,6 +338,7 @@ footer {
   padding: 50px 0;
   margin-top: 0;
   background: #f6f5f2;
+  font-family: "WWFlightWebfont" sans-serif;
 }
 
 .wrapper {
@@ -310,6 +353,7 @@ footer {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  font-family: "WWFopensansBold", sans-serif;
 }
 
 .title::before,
@@ -436,6 +480,142 @@ footer {
 
 .card_help2 {
   background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18053/images/card_2_large/Small_WW164079_%281%29.jpg?1572550575);
+}
+
+.row_shaded {
+  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18044/images/blog_header_large/WWF_Catalog_2020_LG_Cover__GRAY50.jpg?1572277079);
+  background-size: cover;
+  height: 150px;
+  font-family: "WWFopensansBold", sans-serif;
+  text-align: center;
+}
+
+.content_centered {
+  padding: 2em 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.orange_buttom {
+  background: #d55c19;
+  border-radius: 2px;
+  margin-left: 0;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  font-family: "WWFopensansBold", serif;
+  text-transform: uppercase;
+}
+
+.species_center {
+  font-family: "WWFlightWebfont", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 25%;
+  padding-right: 20%;
+}
+
+.species_greed {
+  height: 1500px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: repeat(6, 250px);
+  justify-content: center;
+}
+
+.species_greed_tiger {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.species_greed_bear {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.species_greed_panda {
+  grid-column: 3/5;
+  grid-row: 1/3;
+}
+
+.species_greed_orangutan {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.species_greed_leopard {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+.species_greed_turtle {
+  grid-column: 3/5;
+  grid-row: 3/4;
+}
+
+.species_greed_chimpanzee {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.species_greed_elephant {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.species_greed_bison {
+  grid-column: 3/5;
+  grid-row: 4/5;
+}
+
+.species_greed_vaquita {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.species_greed_rhino {
+  grid-column: 2/4;
+  grid-row: 5/6;
+}
+
+.species_greed_dolphin {
+  grid-column: 4/5;
+  grid-row: 5/6;
+}
+
+.species_greed_gorilla {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+.species_greed_whale {
+  grid-column: 2/4;
+  grid-row: 6/7;
+}
+
+.species_greed_bonobo {
+  grid-column: 4/5;
+  grid-row: 6/7;
+}
+
+.wwf_name {
+  text-transform: uppercase;
+  background-color: black;
+  opacity: 1;
+}
+
+.gradient {
+  display: block;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(to bottom, #fff, rgba(153, 153, 153, 0.171));
 }
 
 /*# sourceMappingURL=main.css.map */

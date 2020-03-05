@@ -1,0 +1,32 @@
+.header_species_bg {
+    background-image: url('https://c402277.ssl.cf1.rackcdn.com/photos/2213/images/hero_full/Species-Index-Turtle.jpg?1345645331');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: auto;
+    position: relative;
+}
+
+.wrapper_header_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: none;
+    z-index: 2;
+    color: #000;
+    text-align: center;
+    width: 100%;
+}
+
+.headline-hero-h1 {
+    text-transform: uppercase;
+    line-height: 1;
+    font: 52px/1.1 OpenSansRegular, Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.headline-hero-h2 {
+    font: bold 20px/1 OpenSansRegular, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+}

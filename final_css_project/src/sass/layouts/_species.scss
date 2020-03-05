@@ -1,0 +1,137 @@
+.row_shaded {
+    background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18044/images/blog_header_large/WWF_Catalog_2020_LG_Cover__GRAY50.jpg?1572277079);
+    background-size: cover;
+    height: 150px;
+    font-family: "WWFopensansBold", sans-serif;
+    text-align: center;
+}
+
+.content_centered {
+    padding: 2em 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orange_buttom {
+    background: rgb(213, 92, 25);
+    border-radius: 2px;
+    margin-left: 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    font-family: "WWFopensansBold", serif;
+    text-transform: uppercase;
+}
+
+.species_center {
+    font-family: "WWFlightWebfont", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+
+.species_greed {
+    height: 1500px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: repeat(6, 250px);
+    justify-content: center;
+
+}
+
+.species_greed_tiger {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.species_greed_bear {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.species_greed_panda {
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.species_greed_orangutan {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.species_greed_leopard {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.species_greed_turtle {
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+.species_greed_chimpanzee {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.species_greed_elephant {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.species_greed_bison {
+    grid-column: 3/5;
+    grid-row: 4/5;
+}
+
+.species_greed_vaquita {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.species_greed_rhino {
+    grid-column: 2/4;
+    grid-row: 5/6;
+}
+
+.species_greed_dolphin {
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+.species_greed_gorilla {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.species_greed_whale {
+    grid-column: 2/4;
+    grid-row: 6/7;
+}
+
+.species_greed_bonobo {
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
+
+.wwf_name {
+    text-transform: uppercase;
+    background-color: black;
+    opacity: 1;
+}
+
+.gradient {
+    display: block;
+    width: 100%;
+    height: 70px;
+background: linear-gradient(to bottom, #fff, rgba(153, 153, 153, 0.171));
+}
+
