@@ -2,7 +2,8 @@
     position: relative;
     display: block;
 }
-.dropdown-control li:hover .dropdown {
+
+li.dropdown-control:hover .dropdown {
     display: block;
 }
 
@@ -15,6 +16,7 @@
     font-size: 12px;
     font: inherit;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 4;
 
     .primary {
         width: 350px;
