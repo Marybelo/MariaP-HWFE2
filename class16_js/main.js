@@ -46,3 +46,12 @@ if (b % 4 == 0 || b % 100 != 0 && b % 400 == 0) {
 } else {
     console.log(b + "Обычный год");
 }
+
+//4 задание
+
+let num = prompt ('Введите число от 1 до 20');
+let i = 1 ;
+while (i < = 10) {
+    console.log(num + '*' + i + '=' + (num*i);
+    i++)
+}
