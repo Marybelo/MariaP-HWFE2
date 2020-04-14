@@ -52,8 +52,8 @@
 ## JavaScript Логические операторы. Условные операторы. Циклы
 [Homework](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class16_js)   
 
-
-
+## Функции 
+[Homework]() 
 
 
 
