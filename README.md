@@ -53,7 +53,7 @@
 [Homework](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class16_js)   
 
 ## Функции 
-[Homework]() 
+[Homework](https://github.com/Marybelo/MariaP-HWFE2/blob/master/class17_js/main.js) 
 
 
 
