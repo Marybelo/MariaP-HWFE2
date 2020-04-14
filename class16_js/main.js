@@ -85,3 +85,17 @@ for (let i = 0; i < = 15; i++) {
     second = third;
     console.log(third);
 }
+
+// 7 Используя циклы (и операцию конкатенации), выведите в консоль "шахматную доску":
+
+// ![chessboard](https://i.snag.gy/PTuKRJ.jpg)
+
+let rowFirst = " # # # #"
+let rowNext = "# # # # "
+
+for (let i = 1; i <= 4; i++) {
+	console.log (row);
+	for (let j = 1; j <= 4; j++) {
+		console.log (rowNext);
+	}
+}
