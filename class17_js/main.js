@@ -1,15 +1,5 @@
 // 1. Создайте функцию, которая получает в качестве аргументов три числа и возвращает наименьшее из них.
 
-// function minNum(a, b, c) {
-//     let result = c;
-//     if (a < b && a < c) {
-//         result = a;
-//     }
-//     if (b < a && b < c) {
-//         result = b;
-//     }
-//     return result
-// }
 
 function minNum(a, b, c) {
 
@@ -50,11 +40,11 @@ let time = (days, hours, minutes) =>
 console.log(time(1, 0, 0));
 
 
-let squareNum = a => a * a;
+// let squareNum = a => a * a;
 
-function squareNum(a) {
-    return a * a
-}
+// function squareNum(a) {
+//     return a * a
+// }
 
 
 // 3. Напишите рекурсивную функцию для подсчёта факториала числа.
@@ -86,16 +76,6 @@ function getReverse(num) {
     return x + getReverse(num);
 }
 console.log(getReverse(123456));
-
-
-// Напишите функцию, которая получает три числа и возвращает их сумму.
-function getNumbers(a, b, c) {
-    return a + b + c;
-}
-console.log(getNumbers(2, 2, 2));
-
-
-
 
 // 5. Напишите функцию для решения квадратных уравнений.
 //  В качестве параметров она должна принимать коэффиценты a, b и c, возвращать – количество корней. 
