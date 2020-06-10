@@ -74,8 +74,25 @@ console.log(fac(4));
 // Например, если на вход функция получает 1234, вернуть она должна 4321.
 
 
+function getReverse(num) {
+    if (num < 10) {
+        return num;
+    }
+    let x = num % 10;
+    num = (num - x) / 10;
+    for (let i = num; i >= 1; i /= 10) {
+        x *= 10;
+    }
+    return x + getReverse(num);
+}
+console.log(getReverse(123456));
 
 
+// Напишите функцию, которая получает три числа и возвращает их сумму.
+function getNumbers(a, b, c) {
+    return a + b + c;
+}
+console.log(getNumbers(2, 2, 2));
 
 
 
