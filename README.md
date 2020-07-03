@@ -54,7 +54,9 @@
 
 ## Функции 
 [Homework](https://github.com/Marybelo/MariaP-HWFE2/blob/master/class17_js/main.js) 
+[Практика](https://github.com/Marybelo/MariaP-HWFE2/blob/master/class17_js/practice.js) 
 
-
+## Поиск ошибок. Отладка кода
+[Практика]() 
 
 ####  [Mayakovsky's verses with indentation](https://github.com/Marybelo/MariaP-HWFE2/tree/master/Trillo)
