@@ -57,6 +57,23 @@
 [Практика](https://github.com/Marybelo/MariaP-HWFE2/blob/master/class17_js/practice.js) 
 
 ## Поиск ошибок. Отладка кода
-[Практика]() 
+[Практика](https://github.com/Marybelo/MariaP-HWFE2/tree/master/class18_js) 
+
+## Массивы
+[Практика]
+
+## Объекты
+[Homework]
+[Практика]
+
+## Встроенные возможности JavaScript
+[Homework]
+
+## Продвинутый JS
+[Homework]
+
+## DOM. Работа со страницей
+[Практика]
+[Homework]
 
 ####  [Mayakovsky's verses with indentation](https://github.com/Marybelo/MariaP-HWFE2/tree/master/Trillo)
